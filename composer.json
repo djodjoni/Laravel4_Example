@@ -1,7 +1,7 @@
 {
 	"name": "djodjo/L4Example",
-	"description": "Laravel 4 example website"",
-	"keywords": ["laravel 4", "example", "website"],
+	"description": "Laravel 4 example website",
+    "keywords": ["laravel 4", "example", "website"],
 	"homepage": "http://l4.djodjo.org",
 	"license": "MIT",
 	"require": {
@@ -33,7 +33,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan optimize"
-		]
+		],
 		"post-create-project-cmd": [
 			"php artisan key:generate"
 		]
